@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content= "text/html; charset=utf-8">
+	<title>Πολιτιστικός Σύλλογος Φιλιων</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+    <header>
+    	<div class="main">
+    		<div class="logo">
+    			<img src="logo.png">
+    		</div>
+            <ul>
+            	<li class="active"><a href="#">Αρχική Σελίδα</a></li>
+                <li><a href="#">Χάρτης</a></li>
+            	<li><a href="#">Νέα & Ανακοινώσεις</a></li>
+            	<li><a href="#">Εκδηλώσεις</a></li>
+            	<li><a href="#">Επικοινωνία</a></li>
+            </ul>
+    	</div>
+    	<div class="title">
+    		<h1>ΠΟΛΙΤΙΣΤΙΚΟΣ ΣΥΛΛΟΓΟΣ ΦΙΛΙΩΝ</h1>
+    	</div>
+
+    	<div class="button">
+    		<a href="#" class="btn">ΠΡΟΒΟΛΗ ΒΙΝΤΕΟ</a>
+    		<a href="#" class="btn">ΦΩΤΟΓΡΑΦΙΕΣ</a>
+    </header>
+
+<form class="form-inline">
+  <label class="sr-only" for="inlineFormInputName2">Name</label>
+  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Όνομα Χρήστη">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Email">
+  </div>
+
+  <div class="form-check mb-2 mr-sm-2">
+    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+    <label class="form-check-label" for="inlineFormCheck">
+      Remember me
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline2">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<button type="button" class="btn1 btn-lg btn-danger"" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to donate</button>
+
+
+
+<script type="text/javascript" src="bootstrap.min.js"></script>	
+</body>
+</html>
